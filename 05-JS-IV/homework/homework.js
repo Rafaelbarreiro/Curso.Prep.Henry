@@ -81,7 +81,7 @@ function tieneEmail(usuario) {
   // De lo contratio, devuelve "false"
   // Tu código:
 
-  if ( usuario ['email'] ) {
+  if ( usuario.email ) {
     return true;
   }
   else {
