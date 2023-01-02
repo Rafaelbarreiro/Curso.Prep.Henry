@@ -10,8 +10,20 @@ img{
     background-color: red;
     padding: 50px;
     border: solid black 10px;
+    
+    /* para centrar el div */
+    align-self: center;
+}
+.divClass{
+  
+    align-self: center;
 }
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
